@@ -1,17 +1,22 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebStore.Data;
+using WebStore.Infra.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("WebStoreDBConnection") ?? throw new InvalidOperationException("Connection string 'WebStoreDBConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("WebStoreIdentityDBConnection") ?? throw new InvalidOperationException("Connection string 'WebStoreIdentityDBConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddDbContext<WebStoreDBContext>(options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("WebStoreDBConnection"));
+    });
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
