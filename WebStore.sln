@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Domain", "WebStore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Infra.Data", "WebStore.Infra.Data\WebStore.Infra.Data.csproj", "{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Application", "WebStore.Application\WebStore.Application.csproj", "{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{2C362E7B-0407-47E4-8FE7-70F0B2D09299} = {8B881B01-FA7A-4708-BF3C-C04A9A2A0856}
 		{F5CE3EF4-5D03-4439-BCE8-A455BF074B29} = {2ED35248-9302-4E6F-AEC0-3592298053ED}
 		{2D8E38F6-77C4-40BD-8D72-FA4867F8939B} = {2528F4A7-80B1-49BC-8EB7-678CCBB00415}
+		{B984DBD8-DA02-48F6-BD1B-7090DFF7072D} = {18E4A2A4-4D3E-45DC-9B3C-0A063DD4FDB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4D49A56-DA73-4D9E-9D53-4920F3954CC9}
