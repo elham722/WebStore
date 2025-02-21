@@ -9,6 +9,6 @@ namespace WebStore.Application.Interfaces
 {
     public interface IProductService
     {
-        ProductViewModel GetProduct();
+        ProductViewModel GetProducts();
     }
 }
