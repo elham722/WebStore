@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebStore.Infra.Data\WebStore.Infra.Data.csproj" />
+    <ProjectReference Include="..\WebStore.Infra.IoC\WebStore.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebStore.Data;
 using WebStore.Infra.Data.Context;
+using WebStore.Infra.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +19,8 @@ builder.Services.AddDbContext<WebStoreDBContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("WebStoreDBConnection"));
     });
 builder.Services.AddControllersWithViews();
+
+DependencyContainer.RegisterServices(builder.Services);
 
 var app = builder.Build();
 
