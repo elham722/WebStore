@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebStore.Application.ViewModels;
 
-namespace WebStore.Application.Interfaces
+namespace WebStore.Application.Services.Interfaces
 {
     public interface IProductService
     {

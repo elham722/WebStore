@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebStore.Application.Interfaces;
+using WebStore.Application.Services.Interfaces;
 using WebStore.Application.ViewModels;
 using WebStore.Domain.Intefaces;
 
-namespace WebStore.Application.Services
+namespace WebStore.Application.Services.Implementation
 {
     public class ProductService : IProductService
     {

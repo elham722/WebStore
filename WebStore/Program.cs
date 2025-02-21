@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebStore.Data;
 using WebStore.Infra.Data.Context;
-using WebStore.Infra.IoC;
+using WebStore.IoC.Dependency;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -7,21 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2ED35248-9302-4E6F-AEC0-3592298053ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{2528F4A7-80B1-49BC-8EB7-678CCBB00415}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{2528F4A7-80B1-49BC-8EB7-678CCBB00415}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IOC", "Infra.IOC", "{D4CCE8BF-7E98-4F92-9D9C-50D9DAC4372C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{D4CCE8BF-7E98-4F92-9D9C-50D9DAC4372C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persentation", "Persentation", "{8B881B01-FA7A-4708-BF3C-C04A9A2A0856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore", "WebStore\WebStore.csproj", "{2C362E7B-0407-47E4-8FE7-70F0B2D09299}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Web", "WebStore\WebStore.Web.csproj", "{2C362E7B-0407-47E4-8FE7-70F0B2D09299}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Domain", "WebStore.Domain\WebStore.Domain.csproj", "{F5CE3EF4-5D03-4439-BCE8-A455BF074B29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Infra.Data", "WebStore.Infra.Data\WebStore.Infra.Data.csproj", "{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Data", "WebStore.Infra.Data\WebStore.Data.csproj", "{2D8E38F6-77C4-40BD-8D72-FA4867F8939B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Application", "WebStore.Application\WebStore.Application.csproj", "{B984DBD8-DA02-48F6-BD1B-7090DFF7072D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Infra.IoC", "WebStore.Infra.IoC\WebStore.Infra.IoC.csproj", "{5FC0E625-8300-4F7F-88AA-18396A9C356A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.IoC", "WebStore.Infra.IoC\WebStore.IoC.csproj", "{5FC0E625-8300-4F7F-88AA-18396A9C356A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

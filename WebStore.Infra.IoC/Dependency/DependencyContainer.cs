@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using WebStore.Application.Interfaces;
-using WebStore.Application.Services;
+using WebStore.Application.Services.Implementation;
+using WebStore.Application.Services.Interfaces;
 using WebStore.Domain.Intefaces;
 using WebStore.Infra.Data.Repositories;
 
-namespace WebStore.Infra.IoC
+namespace WebStore.IoC.Dependency
 {
     public class DependencyContainer
     {
